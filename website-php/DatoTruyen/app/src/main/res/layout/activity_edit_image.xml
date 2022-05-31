@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditImageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#02204f"
+        android:id="@+id/abc"
+        >
+        <ImageView
+            android:tint="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:padding="14dp"
+            android:src="@drawable/him"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="homerun"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/fks"
+        android:layout_marginTop="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/abc"
+        android:layout_width="250dp"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/se"
+            android:scaleType="centerCrop"
+            android:id="@+id/hinhanhreal"/>
+
+        <Button
+            android:id="@+id/upanhchithuat"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="#92000000"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/tai2"
+            android:textColor="#F4F4F4"
+
+
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/capnhapchith"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/fks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#00EA6D"
+        android:fontFamily="@font/baloo"
+        android:text="@string/capnhap1"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

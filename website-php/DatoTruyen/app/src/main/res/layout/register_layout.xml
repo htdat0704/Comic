@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/book"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/iv_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_user"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/ten1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/et_reg_email"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/email1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/et_reg_password"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_reg_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/matkhau1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_reg_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rectangle_pink"
+        android:fontFamily="@font/baloo"
+        android:text="@string/dangky"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_getback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/cotkroi"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

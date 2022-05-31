@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DatoTruyen</string>
+    <string name="anh1">Ảnh:</string>
+    <string name="ten1">Tên:</string>
+    <string name="email1">Email:</string>
+    <string name="matkhau1">Mật khẩu:</string>
+    <string name="cotkroi"> ¯  Đã có tài khoản ¯ </string>
+    <string name="dangky">Đăng Ký</string>
+    <string name="capnhap1">Cập nhập</string>
+    <string name="dangxuat1">Đăng xuất</string>
+    <string name="dangnhap1">Đăng nhập</string>
+    <string name="aaaaaaa"> ¯   Đăng ký  ¯  </string>
+    <string name="truyentranh1">Truyện Tranh</string>
+    <string name="ten12">Tên Truyện tranh</string>
+    <string name="chap1">Chap</string>
+    <string name="ngay1">6-10-2020</string>
+    <string name="tai2">Tải ảnh</string>
+    <string name="n_i_dung">Nội dung:</string>
+    <string name="aaaaaaaaaaa">aaaaaaaaaaa</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="th_ng_tin2">Thông tin</string>
+    <string name="d2">Đăng xuất</string>
+
+</resources>

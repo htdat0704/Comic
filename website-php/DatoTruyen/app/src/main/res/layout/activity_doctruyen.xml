@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctruyenActivity"
+    android:background="#F8F4F4"
+    android:orientation="vertical"
+    android:weightSum="20"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#02204f"
+        >
+
+        <ImageView
+       android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:onClick="backknss"
+        android:padding="15dp"
+        android:src="@drawable/backnp"
+        android:tint="#FDFDFD"
+             />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="8"
+            android:weightSum="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#02204f">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_chuyen"
+                android:onClick="luichap"
+                android:padding="15dp"
+                android:src="@drawable/asss"
+                android:tint="#FDFDFD" />
+
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/sochaps"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_bg"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Chap ..."
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_chuyen"
+                android:onClick="tienchap"
+                android:padding="15dp"
+                android:src="@drawable/asss"
+                android:tint="#FDFDFD"
+                android:rotation="180"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="18"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#F4F4F4">
+    <ImageView
+        android:id="@+id/anhhh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:onClick="left"
+        android:background="@drawable/bg_vector"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerVertical="true"
+        android:tint="#fff"
+        android:src="@drawable/play"
+        android:padding="10dp"
+        android:rotation="180"/>
+    <ImageView
+        android:onClick="right"
+        android:background="@drawable/bg_vector"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerVertical="true"
+        android:tint="#fff"
+        android:src="@drawable/play"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/sotrang"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"
+        android:text="10/20"
+        android:paddingRight="10dp"
+        android:background="@drawable/bg_sotrang"/>
+    </RelativeLayout>
+</LinearLayout>

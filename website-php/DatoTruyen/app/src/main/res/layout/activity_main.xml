@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#F8F4F4"
+     >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#02204f"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:onClick="popup"
+            android:padding="15dp"
+            android:src="@drawable/openmenu"
+            android:tint="#FDFDFD" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:onClick="update"
+            android:padding="15dp"
+            android:src="@drawable/refresh"
+            android:tint="#FDFDFD" />
+
+
+        <EditText
+            android:id="@+id/tim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/search_bg"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:hint="Nhập tên truyện cần tìm"
+            android:textColorHint="#FFF"
+            android:textSize="15sp" />
+
+
+
+    </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp" />
+
+
+</LinearLayout>
